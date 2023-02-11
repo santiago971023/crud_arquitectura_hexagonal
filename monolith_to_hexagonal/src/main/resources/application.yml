@@ -1,0 +1,21 @@
+server:
+  port: 8098
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/crudusers
+    username: postgres
+    password: pipo971023
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27018
+      database: cruduser
+
+appDescription: "CRUD users API"
+appVersion: "1.0.0"
